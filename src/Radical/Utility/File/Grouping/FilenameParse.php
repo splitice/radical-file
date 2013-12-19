@@ -1,5 +1,5 @@
 <?php
-namespace Utility\File\Format\Grouping;
+namespace Radical\Utility\File\Format\Grouping;
 
 class FilenameParse {
 	static function parse($filename){
@@ -59,7 +59,7 @@ class FilenameParse {
 		if($filenames && !$groups){
 			$groups[0] = array();
 			foreach($filenames as $f){
-				$groups[0][] = new ParsedFilename\SingleFilename($filename, $f, '', 'unknown');
+				$groups[0][] = new ParsedFilename\SingleFilename($f, $f, '', 'unknown');
 			}
 		}
 		

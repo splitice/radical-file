@@ -1,5 +1,5 @@
 <?php
-namespace Utility\File;
+namespace Radical\Utility\File;
 
 class Instance {
 	protected $file;

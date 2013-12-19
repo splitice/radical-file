@@ -1,5 +1,5 @@
 <?php
-namespace Utility;
+namespace Radical\Utility;
 
 /**
  * Static interface for file functions

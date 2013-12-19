@@ -1,5 +1,5 @@
 <?php
-namespace Utility;
+namespace Radical\Utility;
 
 class Folder {
 	static function listDir($path, $recursive = false) {

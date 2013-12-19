@@ -1,11 +1,11 @@
 <?php
-namespace Utility\File;
+namespace Radical\Utility\File;
 
 class Lock {
 	protected $file;
 	protected $lock;
 	
-	function __construct(\File $file){
+	function __construct(\Radical\File $file){
 		$this->file = $file;
 	}
 	
@@ -14,10 +14,10 @@ class Lock {
 	}
 	
 	function lock($mode = LOCK_EX,$block = true){
+		$handle = $this->file->fopen('r');
 		if($this->lock){
 			return flock($handle, $mode, $block);
 		}
-		$handle = $this->file->fopen('r');
 		$status = flock($handle, $mode, $block);
 		$this->lock = $handle;
 		return $status;

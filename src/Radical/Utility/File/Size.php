@@ -1,5 +1,5 @@
 <?php
-namespace Utility\File;
+namespace Radical\Utility\File;
 
 class Size {
 	private $bytes;

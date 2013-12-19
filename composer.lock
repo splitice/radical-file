@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "3db3db191e80f9cfa731b125f7117001",
+    "hash": "30aff61f1d13f1a247ae9e4e4a0aa765",
     "packages": [
         {
             "name": "splitice/radical-common",
@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/splitice/radical-common.git",
-                "reference": "4214221bbefeee3324287fb2dd24f3890baa67b2"
+                "reference": "35c18185ad3dc981607a3397ea534ed592e588d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/splitice/radical-common/zipball/4214221bbefeee3324287fb2dd24f3890baa67b2",
-                "reference": "4214221bbefeee3324287fb2dd24f3890baa67b2",
+                "url": "https://api.github.com/repos/splitice/radical-common/zipball/35c18185ad3dc981607a3397ea534ed592e588d0",
+                "reference": "35c18185ad3dc981607a3397ea534ed592e588d0",
                 "shasum": ""
             },
             "require": {
@@ -34,7 +34,7 @@
             "keywords": [
                 "radical-php"
             ],
-            "time": "2013-12-15 06:01:59"
+            "time": "2013-12-19 08:20:14"
         },
         {
             "name": "symfony/filesystem",
@@ -90,7 +90,7 @@
     "aliases": [
 
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
         "splitice/radical-common": 20
     },

@@ -1,12 +1,12 @@
 <?php
-namespace Utility\File\Format\Grouping\ParsedFilename;
+namespace Radical\Utility\File\Format\Grouping\ParsedFilename;
 
 abstract class ParsedFilename {
 	protected $fullPath;
 	protected $basefilename;
 	protected $filetype;
 	
-	function __construct($link, $basefilename, $filetype){
+	function __construct($fullPath, $basefilename, $filetype){
 		$this->fullPath = $fullPath;
 		$this->basefilename = $basefilename;
 		$this->filetype = $filetype;
