@@ -24,7 +24,7 @@ class File {
 	 * 
 	 * @param string $filename
 	 * @param string $data
-	 * @return \Utility\File
+	 * @return \Radical\Utility\File
 	 */
 	static function temporary($filename,$data = ''){
 		$filename = '/tmp/'.$filename;
