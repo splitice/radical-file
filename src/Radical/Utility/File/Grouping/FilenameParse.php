@@ -36,11 +36,11 @@ class FilenameParse {
 				return new ParsedFilename\SplitFilename($filename, $f, '7z', (int)$ext);
 			}
 			return new ParsedFilename\SplitFilename($filename, $f, 'split', (int)$ext);
-		} elseif($ext{0} == 'r') {
+		} elseif($ext[0] == 'r') {
 			$partnum = substr($ext, 1);
 			if(is_numeric($partnum))
 				return new ParsedFilename\SplitFilename($filename, $f, 'rar', (int)$partnum);
-		} elseif($ext{0} == 'z') {
+		} elseif($ext[0] == 'z') {
 			$partnum = substr($ext, 1);
 			if(is_numeric($partnum))
 				return new ParsedFilename\SplitFilename($filename, $f, 'zip', (int)$partnum);
